@@ -19,6 +19,38 @@ export default {
         ring: "hsl(var(--ring))",
         background: "hsl(var(--background))",
         foreground: "hsl(var(--foreground))",
+        
+        // Calculator-specific colors
+        calc: {
+          bg: "hsl(var(--calc-bg))",
+          "bg-secondary": "hsl(var(--calc-bg-secondary))",
+          display: "hsl(var(--calc-display))",
+          "display-text": "hsl(var(--calc-display-text))",
+        },
+        
+        btn: {
+          number: "hsl(var(--btn-number))",
+          "number-hover": "hsl(var(--btn-number-hover))",
+          "number-text": "hsl(var(--btn-number-text))",
+          
+          operator: "hsl(var(--btn-operator))",
+          "operator-hover": "hsl(var(--btn-operator-hover))",
+          "operator-text": "hsl(var(--btn-operator-text))",
+          
+          equals: "hsl(var(--btn-equals))",
+          "equals-hover": "hsl(var(--btn-equals-hover))",
+          "equals-text": "hsl(var(--btn-equals-text))",
+          
+          clear: "hsl(var(--btn-clear))",
+          "clear-hover": "hsl(var(--btn-clear-hover))",
+          "clear-text": "hsl(var(--btn-clear-text))",
+        },
+        
+        glass: {
+          bg: "hsl(var(--glass-bg))",
+          border: "hsl(var(--glass-border))",
+        },
+        
         primary: {
           DEFAULT: "hsl(var(--primary))",
           foreground: "hsl(var(--primary-foreground))",
